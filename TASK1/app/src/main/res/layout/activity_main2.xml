@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:background="#C17C31"
+            android:src="@drawable/lgm_logo"></ImageView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/knowmore"
+        android:layout_marginTop="10dp"
+        android:layout_width="340dp"
+        android:layout_height="181dp"
+        android:layout_gravity="center"
+        android:src="@drawable/img" />
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="340dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:src="@drawable/img_1"></ImageView>
+
+        <ImageView
+            android:id="@+id/trackerbg"
+            android:layout_width="170dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/rectangle_4"
+            android:visibility="visible"></ImageView>
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="68dp"
+            android:layout_marginEnd="121dp"
+            android:gravity="center"
+            android:text="Tracker"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/allcitiesbg"
+            android:layout_width="170dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/rectangle_4"
+            android:visibility="invisible"
+            android:layout_alignParentRight="true">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/allcities"
+            android:layout_width="170dp"
+            android:layout_height="68dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="All Cities"
+            android:textColor="#A74813"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/searchcity"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:background="@drawable/basic_curved_rectangle"
+            android:drawableRight="@drawable/ic_baseline_search_24"
+            android:hint="Search City"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColorHint="#7E7D7D" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <View
+            android:layout_width="100dp"
+            android:layout_height="3dp"
+            android:background="@color/teal_700"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Nagpur"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"/>
+        <View
+            android:layout_width="100dp"
+            android:layout_height="3dp"
+            android:background="@color/teal_700"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="340dp"
+        android:layout_height="250dp"
+        android:background="@drawable/stats"
+        android:layout_marginBottom="20dp">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9137"
+            android:textColor="#6D757D"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.908"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.97" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="264"
+            android:textColor="#157FFB"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.912"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.36" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4,83,591"
+            android:textColor="#30A64A"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.245"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.98" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4,93,063"
+            android:textColor="#FC1441"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.245"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.36" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
