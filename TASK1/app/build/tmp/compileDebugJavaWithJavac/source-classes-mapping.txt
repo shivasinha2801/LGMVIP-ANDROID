@@ -1,0 +1,17 @@
+com/shivasinha/covid_19tracker/Data.java
+ com.shivasinha.covid_19tracker.Data
+com/shivasinha/covid_19tracker/BuildConfig.java
+ com.shivasinha.covid_19tracker.BuildConfig
+com/shivasinha/covid_19tracker/Model.java
+ com.shivasinha.covid_19tracker.Model
+com/shivasinha/covid_19tracker/Adapter.java
+ com.shivasinha.covid_19tracker.Adapter
+com/shivasinha/covid_19tracker/MainActivity2.java
+ com.shivasinha.covid_19tracker.MainActivity2
+ com.shivasinha.covid_19tracker.MainActivity2$1
+ com.shivasinha.covid_19tracker.MainActivity2$2
+com/shivasinha/covid_19tracker/MainActivity.java
+ com.shivasinha.covid_19tracker.MainActivity
+ com.shivasinha.covid_19tracker.MainActivity$1
+ com.shivasinha.covid_19tracker.MainActivity$2
+ com.shivasinha.covid_19tracker.MainActivity$3
