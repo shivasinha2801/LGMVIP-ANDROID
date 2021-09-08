@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MissingClass">
+
+<!--    <Button-->
+<!--        android:id="@+id/open"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="146dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="3dp"-->
+<!--        android:text="capture" />-->
+
+    <ImageButton
+        android:id="@+id/open"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_camera_24">
+    </ImageButton>
+
+    <com.wonderkiln.camerakit.CameraView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/camera"
+        android:layout_above="@+id/open">
+
+    </com.wonderkiln.camerakit.CameraView>
+
+
+    <com.example.lgm_task2.Helper.GraphicOverlay
+        android:id="@+id/graphic_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/open" />
+
+
+</RelativeLayout>
